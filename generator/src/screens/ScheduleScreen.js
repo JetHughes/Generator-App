@@ -1,12 +1,12 @@
 import React from 'react';
 import { StyleSheet, Text, View, Button, Alert } from 'react-native';
 
-function OptionsScreen() {
+function ScheduleScreen() {
     return(   
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-            <Text>Options Screen</Text>
+            <Text>Schedule Screen</Text>
         </View>
     );
 }
 
-export default OptionsScreen;
+export default ScheduleScreen;
