@@ -1,1 +1,1 @@
-# Bruzzy
+# Generator
