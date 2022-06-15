@@ -9,12 +9,12 @@ function HomeScreen() {
                 <Text style={styles.trick}>BACK FLIP</Text>
             </View>
             <View style={styles.mainButtons}>
-                <Button onPress={myFunction} title="RAILS"/>
-                <Button onPress={myFunction} title="JUMPS"/>
-                <Button onPress={myFunction} title="PIPE"/>
+                <Button buttonStyle={styles.button} textStyle={styles.buttonText} onPress={myFunction} title="RAILS"/>
+                <Button buttonStyle={styles.button} textStyle={styles.buttonText} onPress={myFunction} title="JUMPS"/>
+                <Button buttonStyle={styles.button} textStyle={styles.buttonText} onPress={myFunction} title="PIPE"/>
             </View>
             <View style={styles.optionsButtonContainer}>
-                <Button onPress={myFunction} title="OPTIONS"/>
+                <Button butonStyle={styles.button} textStyle={styles.buttonText} onPress={myFunction} title="OPTIONS"/>
             </View>
         </View>
     );
@@ -46,5 +46,20 @@ const styles = StyleSheet.create({
     optionsButtonContainer: {
         marginTop: 10,
         marginBottom: 30
+    },
+    button: {
+        marginTop: 10,
+        backgroundColor: "black",
+        color: "white",
+        width: 200,
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center",
+        padding: 40,
+        paddingHorizontal: 40,
+        paddingVertical: 10
+    },
+    buttonText: {  
+        color: "white",        
     }
 })

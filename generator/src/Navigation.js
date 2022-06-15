@@ -17,7 +17,7 @@ function Tabs() {
                     tabBarShowLabel: false,
                     headerShown: false                    
                 }}
-                initialRouteName="Home"
+                initialRouteName="Friends"
             >
                 <Tab.Screen name="Friends" component={FriendsScreen} options={{tabBarIcon: ({color, size}) => (<MaterialCommunityIcons name="account" color={color} size={size}/>)}} />
                 <Tab.Screen name="Home" component={HomeScreen} options={{tabBarIcon: ({color, size}) => (<MaterialCommunityIcons name="home" color={color} size={size}/>)}}/>
